@@ -1,0 +1,63 @@
+1. Kreirav github account na vebstranata i go simnav GitBash.
+2. Selektirav folder na kompjuter vo koj inicijalizirav lokalen repozitorium so komandata 'git init' i potoa go klonirav
+   repozitoriumot za laboratoriskata zadaca so komandata 'git clone https://www.github.com/finkiSI/SI_lab1_gr2'.
+3. So 'mv SI_lab1_gr2 SI_lab1_gr2_171537' go promeniv imeto na lokalniot repozitorium.
+4. So 'cd SI_lab1_gr2_171537' vlegov vo istiot, kade se naogjase remote repozitoriumot. Nego go izbrisav so 'git remote rm remote' (ne se sekjavam tochno na imeto).
+5. Na web-site-ot na github.com kreirav nov repozitorium so imeto SI_lab1_gr2_171537. 
+6. So komandata 'git remote add origin https://www.github.com/borjank/SI_lab1_gr2_171537.git' gi povrzav lokalniot so public repozitoriumot.
+7. So komandata 'git push -u origin master' gi sinhronizirav.
+8. Preku Windows go kreirav students.csv.
+9. Za ovoj cekor iskoristiv dve komandi, prvo 'git add students.csv' pa potoa 'git commit -a -m "students.csv file added"'.
+10. So komandata 'git push -u origin master' gi sinhronizirav.
+11. Ovoj cekor go napraviv so pomos na Eclipse.
+12. Tuka ja iskoristiv komandata 'git commit -a -m "grades list added"'.
+13. Ovoj cekor go napraviv so pomos na Eclipse.
+14. Tuka ja iskoristiv komandata 'git commit -a -m "student class finished"' i potoa 'git push -u origin master'.
+15. Nova granka kreirav so pomosh na 'git branch facultyFeature' i potoa navigirav vo nea so 'git checkout facultyFeature'.
+16. Ovoj cekor go napraviv so pomos na Eclipse.
+17. Fajlot go promeniv preku Windows alatkite.
+18. Tuka ja iskoristiv komandata 'git commit -a -m "faculty class added and students database updated"' i potoa 'git push -u origin facultyFeature'.
+19. Za da gi spojam dvete granki prvo navigirav vo grankata master so 'git checkout master' i potoa gi spoiv so 'git merge facultyFeature'. Nemav
+    nikakov problem vo ovoj cekor.
+20. So 'git push -u origin master' gi sinhronizirav promenite.
+
+'git log' output:
+commit b790d540446d76c7efad76feaa83d7f54f439388 (HEAD -> master, origin/master, origin/facultyFeature, facultyFeature)
+Author: borjank <63057459+borjank@users.noreply.github.com>
+Date:   Thu Apr 9 18:07:25 2020 +0200
+
+    faculty class added, students database updated
+
+commit be7a8c1ee642d07e469b02645f66476fa225319a
+Author: borjank <63057459+borjank@users.noreply.github.com>
+Date:   Thu Apr 9 17:45:20 2020 +0200
+
+    student class finished
+
+commit f12675037f075f79370c80553571837d1b6cc1ef
+Author: borjank <63057459+borjank@users.noreply.github.com>
+Date:   Thu Apr 9 17:29:25 2020 +0200
+
+    grades list added
+
+commit bca8a431cb70a804eb8366d8fa8fc34828955ddb
+Author: borjank <63057459+borjank@users.noreply.github.com>
+Date:   Thu Apr 9 17:22:14 2020 +0200
+
+    students.csv file added
+
+commit 40de0827110ed1dec5c9160b39a26c2f9dc08727
+Author: Stefan Andonov <stefan5andonov@yahoo.com>
+Date:   Thu Mar 12 17:39:55 2020 +0100
+
+    error fixed:
+
+commit 3254e737497f122c0d27a2a89423d30d6be77015
+Author: Stefan Andonov <stefan5andonov@yahoo.com>
+Date:   Thu Mar 12 17:38:04 2020 +0100
+
+    initial commit
+
+
+
+LINK DO REPOZITORIUM: https://github.com/borjank/SI_lab1_gr2_171537
